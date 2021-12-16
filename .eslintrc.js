@@ -14,6 +14,11 @@ module.exports = {
         singleReturnOnly: false,
         classPropertiesAllowed: false
       }
+    ], 'prettier/prettier': [
+      'error',
+      {
+        'endOfLine': 'auto',
+      }
     ]
   }
 };
